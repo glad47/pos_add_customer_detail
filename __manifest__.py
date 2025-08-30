@@ -1,5 +1,5 @@
 {
-    'name': 'pos_loyalty_polling',
+    'name': 'pos_add_customer_detail',
     'version': '16.0.1.0.0',
     'category': 'Point of Sale',
     'author': "gladdema",
@@ -10,9 +10,11 @@
     # ],
     'assets': {
         'point_of_sale.assets': [
-            'pos_loyalty_polling/static/src/js/pos_loyalty_polling.js',
-            'pos_loyalty_polling/static/src/js/pos_update_rewards.js',
-            'pos_loyalty_polling/static/src/js/pos_update_orderline.js',
+            'pos_add_customer_detail/static/src/xml/popup_template.xml',
+            'pos_add_customer_detail/static/src/js/customer_popup.js',
+            'pos_add_customer_detail/static/src/js/popup_logic.js',
+           
+            
         ],
     },
 

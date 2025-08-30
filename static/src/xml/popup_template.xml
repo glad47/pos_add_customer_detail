@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates>
+<t t-name="CustomerInputPopup" owl="1">
+  <div class="popup">
+    <h3>Enter Customer Info</h3>
+    <div class="input-group">
+      <label>Name:</label>
+      <input type="text" t-model="state.name"/>
+    </div>
+    <div class="input-group">
+      <label>Phone:</label>
+      <input type="text" t-model="state.phone"/>
+    </div>
+    <div class="input-group">
+      <label>VAT:</label>
+      <input type="text" t-model="state.vat"/>
+    </div>
+    <footer>
+      <button class="btn btn-primary" t-on-click="confirm">Confirm</button>
+      <button class="btn btn-secondary" t-on-click="cancel">Cancel</button>
+    </footer>
+  </div>
+</t>
+</templates>
