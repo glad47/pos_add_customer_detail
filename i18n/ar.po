@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* pos_loyalty_polling
+# 	* pos_add_customer_detail
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-24 07:59+0000\n"
-"PO-Revision-Date: 2025-08-24 07:59+0000\n"
+"POT-Creation-Date: 2025-08-31 10:14+0000\n"
+"PO-Revision-Date: 2025-08-31 10:14+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -15,43 +15,87 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: pos_loyalty_polling
+#. module: pos_add_customer_detail
 #. odoo-javascript
-#: code:addons/pos_loyalty_polling/static/src/js/pos_update_rewards.js:0
+#: code:addons/pos_add_customer_detail/static/src/js/CustomerInputPopup.js:0
 #, python-format
-msgid "A better global discount is already applied."
-msgstr "تم تطبيق خصم عام أفضل بالفعل."
+msgid "Cancel"
+msgstr "إلغاء"
 
-#. module: pos_loyalty_polling
-#: model:ir.model,name:pos_loyalty_polling.model_loyalty_program
-msgid "Loyalty Program"
-msgstr "برنامج الولاء"
-
-#. module: pos_loyalty_polling
-#: model:ir.model,name:pos_loyalty_polling.model_pos_session
-msgid "Point of Sale Session"
-msgstr "جلسة نقطة البيع"
-
-#. module: pos_loyalty_polling
+#. module: pos_add_customer_detail
 #. odoo-javascript
-#: code:addons/pos_loyalty_polling/static/src/js/pos_update_rewards.js:0
+#: code:addons/pos_add_customer_detail/static/src/js/CustomerInputPopup.js:0
 #, python-format
-msgid "The reward could not be applied."
-msgstr "تعذر تطبيق المكافأة."
+msgid "Confirm"
+msgstr "تأكيد"
 
-#. module: pos_loyalty_polling
+#. module: pos_add_customer_detail
 #. odoo-javascript
-#: code:addons/pos_loyalty_polling/static/src/js/pos_update_rewards.js:0
+#: code:addons/pos_add_customer_detail/static/src/js/CustomerInputPopup.js:0
 #, python-format
-msgid "There are not enough points on the coupon to claim this reward."
-msgstr "لا توجد نقاط كافية على القسيمة لاستلام هذه المكافأة."
+msgid "Customer Info"
+msgstr "معلومات العميل"
 
-#. module: pos_loyalty_polling
-#. odoo-python
-#: code:addons/pos_loyalty_polling/models/loyalty_program.py:0
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
 #, python-format
-msgid ""
-"You cannot archive the loyalty program \"%s\" because the reward product "
-"\"%s\" is still available in POS."
-msgstr ""
-"لا يمكنك أرشفة برنامج الولاء \"%s\" لأن منتج المكافأة \"%s\" لا يزال متاحًا في نقطة البيع."
+msgid "Customer Name"
+msgstr "اسم العميل"
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
+#, python-format
+msgid "Name"
+msgstr "الاسم"
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
+#, python-format
+msgid "Phone"
+msgstr "الجوال"
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
+#, python-format
+msgid "Phone Number"
+msgstr "رقم الجوال"
+
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/CustomerInputPopup.js:0
+#, python-format
+msgid "Please enter a valid Saudi mobile number."
+msgstr "يرجى إدخال رقم جوال سعودي صالح."
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/BlockingLoadingPopup.xml:0
+#, python-format
+msgid "Please wait"
+msgstr "يرجى الانتظار"
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/BlockingLoadingPopup.xml:0
+#, python-format
+msgid "Processing skipping registration...."
+msgstr "جاري المعالجة... يتم تجاوز خطوة التسجيل."
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
+#, python-format
+msgid "VAT"
+msgstr "الرقم الضريبي"
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
+#, python-format
+msgid "VAT Number"
+msgstr "رقم الضريبة"

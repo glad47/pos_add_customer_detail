@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="pos_add_customer_detail.BlockingLoadingPopup" owl="1">
+               <div class="popup customer-info-popup p-5">
+                <main class="body">
+                  <div class="popup blocking-popup">
+                    <div class="popup-title">Please wait</div>
+                    <div class="popup-content">
+                      <p>Processing skipping registration....</p>
+                      <div class="loader"></div>
+                    </div>
+                  </div>
+                </main>
+            </div>
+
+    </t>
+
+</templates>

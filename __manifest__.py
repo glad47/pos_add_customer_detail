@@ -9,12 +9,17 @@
     #     'controllers/controllers.py',
     # ],
     'assets': {
+        'web.assets_backend': [
+            'pos_add_customer_detail/static/src/scss/pos_customer.scss',
+        ],
+
         'point_of_sale.assets': [
-            'pos_add_customer_detail/static/src/xml/popup_template.xml',
-            'pos_add_customer_detail/static/src/js/customer_popup.js',
+            'pos_add_customer_detail/static/src/scss/pos_customer.scss', 
+            'pos_add_customer_detail/static/src/js/BlockingLoadingPopup.js',
+            'pos_add_customer_detail/static/src/js/CustomerInputPopup.js',
             'pos_add_customer_detail/static/src/js/popup_logic.js',
-           
-            
+            'pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml',
+            'pos_add_customer_detail/static/src/xml/Popups/BlockingLoadingPopup.xml',
         ],
     },
 

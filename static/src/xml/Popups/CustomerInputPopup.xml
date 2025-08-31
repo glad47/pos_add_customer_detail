@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="pos_add_customer_detail.CustomerInputPopup" owl="1">
+               <div class="popup customer-info-popup p-5">
+                <main class="body">
+                  <div class="customer-info-form d-flex flex-column">
+                    <!-- popup title -->
+                    <h2 class="customer-info-title">
+                        Customer Info
+                    </h2>
+
+                    <div class="input-field">
+                      <label  for="phone" class="form-label mb-1">Phone</label>
+                      <input type="text" name="phone" t-att-value="state.phone" id="phone" class="form-control form-control-sm" t-model="state.phone" t-on-input="onPhoneInput" placeholder="Phone Number"/>
+                    </div>
+
+                    <div class="input-field">
+                      <label for="name" class="form-label mb-1">Name</label>
+                      <input type="text" name="name" t-att-value="state.name" id="name" class="form-control form-control-sm" t-model="state.name"  t-on-input="onNameInput" placeholder="Customer Name"/>
+                    </div>
+
+                    <div class="input-field">
+                      <label for="vat" class="form-label mb-1">VAT</label>
+                      <input type="text" name="vat" t-att-value="state.vat" id="vat" class="form-control form-control-sm" t-model="state.vat" t-on-input="onVatInput" placeholder="VAT Number"/>
+                    </div>
+
+                    <span t-if="state.inputHasError" class="error-message text-danger mt-2">
+                      Please enter a valid Saudi mobile number.
+                    </span>
+                  </div>
+                </main>
+                <footer class="footer customer-info d-flex justify-content-between mt-4">
+                  <div class="button confirm btn btn-primary px-4" t-on-click="confirm">
+                    Confirm
+                  </div>
+                  <div class="button cancel btn btn-secondary px-4" t-on-click="cancel">
+                    Cancel
+                  </div>
+                </footer>
+            </div>
+
+    </t>
+
+</templates>
