@@ -42,6 +42,7 @@ odoo.define('pos_add_customer_detail.CustomerInputPopup', function (require) {
                 this.state.name = phone;
                 // this.state.vat = phone; // Uncomment if VAT fallback is needed
             }
+                // this.state.vat = vat;
                 return super.confirm();
             }
 

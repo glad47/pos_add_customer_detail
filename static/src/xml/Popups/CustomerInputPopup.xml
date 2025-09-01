@@ -12,17 +12,17 @@
 
                     <div class="input-field">
                       <label  for="phone" class="form-label mb-1">Phone</label>
-                      <input type="text" name="phone" t-att-value="state.phone" id="phone" class="form-control form-control-sm" t-model="state.phone" t-on-input="onPhoneInput" placeholder="Phone Number"/>
+                      <input autocomplete="off" type="text" name="phone" t-att-value="state.phone" id="phone" class="form-control form-control-sm" t-model="state.phone" t-on-input="onPhoneInput" placeholder="Phone Number"/>
                     </div>
 
                     <div class="input-field">
                       <label for="name" class="form-label mb-1">Name</label>
-                      <input type="text" name="name" t-att-value="state.name" id="name" class="form-control form-control-sm" t-model="state.name"  t-on-input="onNameInput" placeholder="Customer Name"/>
+                      <input autocomplete="off" type="text" name="name" t-att-value="state.name" id="name" class="form-control form-control-sm" t-model="state.name"  t-on-input="onNameInput" placeholder="Customer Name"/>
                     </div>
 
                     <div class="input-field">
                       <label for="vat" class="form-label mb-1">VAT</label>
-                      <input type="text" name="vat" t-att-value="state.vat" id="vat" class="form-control form-control-sm" t-model="state.vat" t-on-input="onVatInput" placeholder="VAT Number"/>
+                      <input autocomplete="off" type="text" name="vat" t-att-value="state.vat" id="vat" class="form-control form-control-sm" t-model="state.vat" t-on-input="onVatInput" placeholder="VAT Number"/>
                     </div>
 
                     <span t-if="state.inputHasError" class="error-message text-danger mt-2">
@@ -34,9 +34,9 @@
                   <div class="button confirm btn btn-primary px-4" t-on-click="confirm">
                     Confirm
                   </div>
-                  <div class="button cancel btn btn-danger px-4" t-on-click="cancel">
+                  <!-- <div class="button cancel btn btn-danger px-4" t-on-click="cancel">
                     Cancel
-                  </div>
+                  </div> -->
                 </footer>
             </div>
 
