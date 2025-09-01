@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-31 10:14+0000\n"
-"PO-Revision-Date: 2025-08-31 10:14+0000\n"
+"POT-Creation-Date: 2025-09-01 10:25+0000\n"
+"PO-Revision-Date: 2025-09-01 10:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,14 +17,37 @@ msgstr ""
 
 #. module: pos_add_customer_detail
 #. odoo-javascript
-#: code:addons/pos_add_customer_detail/static/src/js/CustomerInputPopup.js:0
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
 #, python-format
-msgid "Cancel"
-msgstr "إلغاء"
+msgid "? Clicking \"Confirm\" will validate the payment."
+msgstr "؟ بالنقر على \"تأكيد\" سيتم اعتماد الدفع."
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid "Are you sure that the customer wants to  pay"
+msgstr "هل أنت متأكد أن العميل يرغب في الدفع؟"
 
 #. module: pos_add_customer_detail
 #. odoo-javascript
 #: code:addons/pos_add_customer_detail/static/src/js/CustomerInputPopup.js:0
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
+#, python-format
+msgid "Cancel"
+msgstr "تجاوز"
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid "Cannot return change without a cash payment method"
+msgstr "لا يمكن إرجاع الباقي بدون وسيلة دفع نقدية"
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/CustomerInputPopup.js:0
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
 #, python-format
 msgid "Confirm"
 msgstr "تأكيد"
@@ -32,6 +55,7 @@ msgstr "تأكيد"
 #. module: pos_add_customer_detail
 #. odoo-javascript
 #: code:addons/pos_add_customer_detail/static/src/js/CustomerInputPopup.js:0
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
 #, python-format
 msgid "Customer Info"
 msgstr "معلومات العميل"
@@ -45,10 +69,31 @@ msgstr "اسم العميل"
 
 #. module: pos_add_customer_detail
 #. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid "Empty Order"
+msgstr "طلب فارغ"
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid "Incorrect rounding"
+msgstr "تقريب غير صحيح"
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
 #: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
 #, python-format
 msgid "Name"
 msgstr "الاسم"
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid "Pending Electronic Payments"
+msgstr "مدفوعات إلكترونية معلقة"
 
 #. module: pos_add_customer_detail
 #. odoo-javascript
@@ -64,10 +109,17 @@ msgstr "الجوال"
 msgid "Phone Number"
 msgstr "رقم الجوال"
 
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid "Please Confirm Large Amount"
+msgstr "يرجى تأكيد المبلغ الكبير"
 
 #. module: pos_add_customer_detail
 #. odoo-javascript
 #: code:addons/pos_add_customer_detail/static/src/js/CustomerInputPopup.js:0
+#: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
 #, python-format
 msgid "Please enter a valid Saudi mobile number."
 msgstr "يرجى إدخال رقم جوال سعودي صالح."
@@ -84,18 +136,72 @@ msgstr "يرجى الانتظار"
 #: code:addons/pos_add_customer_detail/static/src/xml/Popups/BlockingLoadingPopup.xml:0
 #, python-format
 msgid "Processing skipping registration...."
-msgstr "جاري المعالجة... يتم تجاوز خطوة التسجيل."
+msgstr "جاري تجاوز التسجيل...."
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid "Select a payment method to validate the order."
+msgstr "اختر وسيلة دفع لاعتماد الطلب."
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid ""
+"There is at least one pending electronic payment.\n"
+"Please finish the payment with the terminal or cancel it then remove the payment line."
+msgstr ""
+"يوجد على الأقل دفعة إلكترونية معلقة.\n"
+يرجى إنهاء الدفع عبر الجهاز أو إلغاؤه ثم إزالة خط الدفع."
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid ""
+"There is no cash payment method available in this point of sale to handle the change.\n"
+"\n"
+" Please pay the exact amount or add a cash payment method in the point of sale configuration"
+msgstr ""
+"لا توجد وسيلة دفع نقدية متاحة في نقطة البيع للتعامل مع الباقي.\n"
+\n"
+يرجى دفع المبلغ الكامل أو إضافة وسيلة دفع نقدية في إعدادات نقطة البيع."
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid ""
+"There must be at least one product in your order before it can be validated "
+"and invoiced."
+msgstr "يجب أن يحتوي الطلب على منتج واحد على الأقل قبل اعتماده وإصدار الفاتورة."
 
 #. module: pos_add_customer_detail
 #. odoo-javascript
 #: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
 #, python-format
 msgid "VAT"
-msgstr "الرقم الضريبي"
+msgstr "ضريبة القيمة المضافة"
 
 #. module: pos_add_customer_detail
 #. odoo-javascript
 #: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
 #, python-format
 msgid "VAT Number"
-msgstr "رقم الضريبة"
+msgstr "رقم ضريبة القيمة المضافة"
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid "You have to round your payments lines. is not rounded."
+msgstr "يجب تقريب خطوط الدفع الخاصة بك. لم يتم التقريب."
+
+#. module: pos_add_customer_detail
+#. odoo-javascript
+#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
+#, python-format
+msgid "for an order of"
+msgstr "لطلب بقيمة"

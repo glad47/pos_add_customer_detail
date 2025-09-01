@@ -34,7 +34,7 @@
                   <div class="button confirm btn btn-primary px-4" t-on-click="confirm">
                     Confirm
                   </div>
-                  <div class="button cancel btn btn-secondary px-4" t-on-click="cancel">
+                  <div class="button cancel btn btn-danger px-4" t-on-click="cancel">
                     Cancel
                   </div>
                 </footer>

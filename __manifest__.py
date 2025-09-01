@@ -1,5 +1,5 @@
 {
-    'name': 'pos_add_customer_detail',
+    'name': 'Store Customer Info at POS',
     'version': '16.0.1.0.0',
     'category': 'Point of Sale',
     'author': "gladdema",
