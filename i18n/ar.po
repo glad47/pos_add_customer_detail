@@ -15,19 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: pos_add_customer_detail
-#. odoo-javascript
-#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
-#, python-format
-msgid "? Clicking \"Confirm\" will validate the payment."
-msgstr "؟ بالنقر على \"تأكيد\" سيتم اعتماد الدفع."
-
-#. module: pos_add_customer_detail
-#. odoo-javascript
-#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
-#, python-format
-msgid "Are you sure that the customer wants to  pay"
-msgstr "هل أنت متأكد أن العميل يرغب في الدفع؟"
 
 #. module: pos_add_customer_detail
 #. odoo-javascript
@@ -138,52 +125,14 @@ msgstr "يرجى الانتظار"
 msgid "Processing skipping registration...."
 msgstr "جاري تجاوز التسجيل...."
 
-#. module: pos_add_customer_detail
-#. odoo-javascript
-#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
-#, python-format
-msgid "Select a payment method to validate the order."
-msgstr "اختر وسيلة دفع لاعتماد الطلب."
 
-#. module: pos_add_customer_detail
-#. odoo-javascript
-#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
-#, python-format
-msgid ""
-"There is at least one pending electronic payment.\n"
-"Please finish the payment with the terminal or cancel it then remove the payment line."
-msgstr ""
-"يوجد على الأقل دفعة إلكترونية معلقة.\n"
-يرجى إنهاء الدفع عبر الجهاز أو إلغاؤه ثم إزالة خط الدفع."
-
-#. module: pos_add_customer_detail
-#. odoo-javascript
-#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
-#, python-format
-msgid ""
-"There is no cash payment method available in this point of sale to handle the change.\n"
-"\n"
-" Please pay the exact amount or add a cash payment method in the point of sale configuration"
-msgstr ""
-"لا توجد وسيلة دفع نقدية متاحة في نقطة البيع للتعامل مع الباقي.\n"
-\n"
-يرجى دفع المبلغ الكامل أو إضافة وسيلة دفع نقدية في إعدادات نقطة البيع."
-
-#. module: pos_add_customer_detail
-#. odoo-javascript
-#: code:addons/pos_add_customer_detail/static/src/js/popup_logic.js:0
-#, python-format
-msgid ""
-"There must be at least one product in your order before it can be validated "
-"and invoiced."
-msgstr "يجب أن يحتوي الطلب على منتج واحد على الأقل قبل اعتماده وإصدار الفاتورة."
 
 #. module: pos_add_customer_detail
 #. odoo-javascript
 #: code:addons/pos_add_customer_detail/static/src/xml/Popups/CustomerInputPopup.xml:0
 #, python-format
 msgid "VAT"
-msgstr "ضريبة القيمة المضافة"
+msgstr "الرقم الضريبي"
 
 #. module: pos_add_customer_detail
 #. odoo-javascript
